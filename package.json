@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Receepe application",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html" 
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
